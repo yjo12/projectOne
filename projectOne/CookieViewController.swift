@@ -16,6 +16,7 @@ class CookieViewController: UIViewController {
     let cookie2 = UIImage(named: "cookie2.jpg")
     var randomInt = 1
     
+    //버튼을 누르면 어떤 이미지가 들어있는지에 따라 레이블을 변경한다
     @IBAction func cookieButton() {
         if cookieImage.image == cookie1 {
             cookieImage.image = cookie2
@@ -26,11 +27,13 @@ class CookieViewController: UIViewController {
         }
     }
     
+    //레이블에 들어갈 말을 랜덤하게 고른다
     func randomSaying() -> String {
         randomInt = Int(arc4random_uniform(_:UInt32(sayingArray.count)))
         return sayingArray[randomInt]
     }
     
+    //레이블에 들어갈 말을 어레이로 선언한다
     var sayingArray: [String] = [
         "사랑은 눈으로 보지 않고 마음으로 보는 거지.",
         "많이 보고 많이 겪고 많이 공부하는 것은 배움의 세 기둥이다.",

@@ -14,6 +14,7 @@ class FeelingViewController: UIViewController {
     @IBOutlet var feelingText: UITextField!
     @IBOutlet var feelingResultText: UILabel!
     
+    //버튼을 누르면 feelingResultText 출력
     @IBAction func feelingButton() {
         if self.feelingSeg.selectedSegmentIndex == 0 {
             self.feelingResultText.text = "우와~ 당신이 기분 좋다니 나도 덩달아 행복해지네요! 오늘도 좋은 하루 보내요^^"
