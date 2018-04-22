@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3315D8208A499600C04A98 /* CookieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3315D7208A499600C04A98 /* CookieViewController.swift */; };
+		CD3315DA208A49A900C04A98 /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3315D9208A49A900C04A98 /* FortuneViewController.swift */; };
 		CD5C233220861EEE006CF899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C233120861EEE006CF899 /* AppDelegate.swift */; };
 		CD5C233420861EEE006CF899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C233320861EEE006CF899 /* ViewController.swift */; };
 		CD5C233720861EEE006CF899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5C233520861EEE006CF899 /* Main.storyboard */; };
 		CD5C233920861EEE006CF899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5C233820861EEE006CF899 /* Assets.xcassets */; };
 		CD5C233C20861EEE006CF899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5C233A20861EEE006CF899 /* LaunchScreen.storyboard */; };
+		CD933CA5208CBC8E00E8A0FB /* FeelingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD933CA4208CBC8E00E8A0FB /* FeelingViewController.swift */; };
+		CD933CAF208CC51600E8A0FB /* kitty1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD933CA8208CC51500E8A0FB /* kitty1.jpg */; };
+		CD933CB0208CC51600E8A0FB /* kitty2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD933CA9208CC51500E8A0FB /* kitty2.jpg */; };
+		CD933CB5208CCC9F00E8A0FB /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD933CB4208CCC9F00E8A0FB /* home.jpg */; };
+		CDCB4D5C208C35BA0067608C /* cookie2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDCB4D5A208C35BA0067608C /* cookie2.jpg */; };
+		CDCB4D5D208C35BA0067608C /* cookie1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDCB4D5B208C35BA0067608C /* cookie1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD3315D7208A499600C04A98 /* CookieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieViewController.swift; sourceTree = "<group>"; };
+		CD3315D9208A49A900C04A98 /* FortuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
 		CD5C232E20861EEE006CF899 /* projectOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5C233120861EEE006CF899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD5C233320861EEE006CF899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		CD5C233820861EEE006CF899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD5C233B20861EEE006CF899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD5C233D20861EEE006CF899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD933CA4208CBC8E00E8A0FB /* FeelingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingViewController.swift; sourceTree = "<group>"; };
+		CD933CA8208CC51500E8A0FB /* kitty1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kitty1.jpg; path = projectOne/kitty1.jpg; sourceTree = "<group>"; };
+		CD933CA9208CC51500E8A0FB /* kitty2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kitty2.jpg; path = projectOne/kitty2.jpg; sourceTree = "<group>"; };
+		CD933CB4208CCC9F00E8A0FB /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = home.jpg; path = projectOne/home.jpg; sourceTree = "<group>"; };
+		CDCB4D5A208C35BA0067608C /* cookie2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cookie2.jpg; path = projectOne/cookie2.jpg; sourceTree = "<group>"; };
+		CDCB4D5B208C35BA0067608C /* cookie1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cookie1.jpg; path = projectOne/cookie1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,11 @@
 		CD5C232520861EEE006CF899 = {
 			isa = PBXGroup;
 			children = (
+				CD933CB4208CCC9F00E8A0FB /* home.jpg */,
+				CD933CA8208CC51500E8A0FB /* kitty1.jpg */,
+				CD933CA9208CC51500E8A0FB /* kitty2.jpg */,
+				CDCB4D5B208C35BA0067608C /* cookie1.jpg */,
+				CDCB4D5A208C35BA0067608C /* cookie2.jpg */,
 				CD5C233020861EEE006CF899 /* projectOne */,
 				CD5C232F20861EEE006CF899 /* Products */,
 			);
@@ -57,9 +78,12 @@
 				CD5C233120861EEE006CF899 /* AppDelegate.swift */,
 				CD5C233320861EEE006CF899 /* ViewController.swift */,
 				CD5C233520861EEE006CF899 /* Main.storyboard */,
+				CD933CA4208CBC8E00E8A0FB /* FeelingViewController.swift */,
 				CD5C233820861EEE006CF899 /* Assets.xcassets */,
 				CD5C233A20861EEE006CF899 /* LaunchScreen.storyboard */,
 				CD5C233D20861EEE006CF899 /* Info.plist */,
+				CD3315D7208A499600C04A98 /* CookieViewController.swift */,
+				CD3315D9208A49A900C04A98 /* FortuneViewController.swift */,
 			);
 			path = projectOne;
 			sourceTree = "<group>";
@@ -123,9 +147,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD933CB5208CCC9F00E8A0FB /* home.jpg in Resources */,
 				CD5C233C20861EEE006CF899 /* LaunchScreen.storyboard in Resources */,
+				CDCB4D5D208C35BA0067608C /* cookie1.jpg in Resources */,
 				CD5C233920861EEE006CF899 /* Assets.xcassets in Resources */,
+				CDCB4D5C208C35BA0067608C /* cookie2.jpg in Resources */,
 				CD5C233720861EEE006CF899 /* Main.storyboard in Resources */,
+				CD933CB0208CC51600E8A0FB /* kitty2.jpg in Resources */,
+				CD933CAF208CC51600E8A0FB /* kitty1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD933CA5208CBC8E00E8A0FB /* FeelingViewController.swift in Sources */,
+				CD3315D8208A499600C04A98 /* CookieViewController.swift in Sources */,
 				CD5C233420861EEE006CF899 /* ViewController.swift in Sources */,
+				CD3315DA208A49A900C04A98 /* FortuneViewController.swift in Sources */,
 				CD5C233220861EEE006CF899 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
